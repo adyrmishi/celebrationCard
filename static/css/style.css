@@ -1,0 +1,10 @@
+#celebrationCard {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;;
+}

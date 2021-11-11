@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script defer src="/static/js/index.js"></script>
+</head>
+<body>
+    <h1>Celebration card generator</h1>
+    <section id="form">
+        <form id="celebrationCard">
+            <input type="text" id="greeting" placeholder="Enter your greeting here">
+            <select name="event" id="event">
+                <option value="" disabled selected hidden>Choose a celebration</option>
+                <option value="wedding">Wedding</option>
+                <option value="birthday">Birthday</option>
+                <option value="newBaby">New baby</option>
+                <option value="graduation">Graduation</option>
+                <option value="newJob">New job</option>
+            </select>
+            <textarea id="message" placeholder="Write your message here"></textarea>
+            <input type="submit" id="submit" value="Make card">
+        </form>
+    </section>
+</body>
+</html>
